@@ -1,0 +1,16 @@
+﻿  Main.cpp
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(53): error C2804: 'operator <<' binário possui muitos parâmetros
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(53): error C2333: 'vec3::operator <<': erro na declaração da função; ignorando corpo da função
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(57): error C2804: 'operator +' binário possui muitos parâmetros
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(57): error C2333: 'vec3::operator +': erro na declaração da função; ignorando corpo da função
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(61): error C2804: 'operator -' binário possui muitos parâmetros
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(61): error C2333: 'vec3::operator -': erro na declaração da função; ignorando corpo da função
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(65): error C2804: 'operator *' binário possui muitos parâmetros
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(65): error C2333: 'vec3::operator *': erro na declaração da função; ignorando corpo da função
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(69): error C2804: 'operator *' binário possui muitos parâmetros
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(69): error C2333: 'vec3::operator *': erro na declaração da função; ignorando corpo da função
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(73): error C2804: 'operator *' binário possui muitos parâmetros
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(73): error C2333: 'vec3::operator *': erro na declaração da função; ignorando corpo da função
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(77): error C2804: 'operator /' binário possui muitos parâmetros
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(77): error C2333: 'vec3::operator /': erro na declaração da função; ignorando corpo da função
+c:\users\dominikcg\source\repos\cga\cga\vec3.h(94): error C2676: '/' binário : 'vec3' não define este operador ou uma conversão para um tipo aceitável ao operador pré-definido

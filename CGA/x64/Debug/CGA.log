@@ -1,0 +1,5 @@
+﻿  Main.cpp
+c:\users\dominikcg\desktop\cga ray\ray-tracing\cga\main.cpp(9): warning C4129: 'C': sequência de escape de caractere não reconhecida
+c:\users\dominikcg\desktop\cga ray\ray-tracing\cga\main.cpp(9): warning C4129: 'R': sequência de escape de caractere não reconhecida
+c:\users\dominikcg\desktop\cga ray\ray-tracing\cga\main.cpp(9): warning C4129: 'p': sequência de escape de caractere não reconhecida
+  CGA.vcxproj -> C:\Users\DOMINIKCG\Desktop\CGA ray\Ray-Tracing\x64\Debug\CGA.exe

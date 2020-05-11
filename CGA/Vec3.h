@@ -3,12 +3,6 @@
 
 #include <iostream>
 #include <cmath>
-#include <limits>
-#include <memory>
-
-using std::sqrt;
-
-
 class vec3 {
 public:
 	vec3() : e{ 0,0,0 } {}
@@ -40,7 +34,6 @@ public:
 		return *this *= 1 / t;
 	}
 
-
 	double length() const {
 		return sqrt(length_squared());
 	}
@@ -56,15 +49,8 @@ public:
 			<< static_cast<int>(255.999 * e[2]) << '\n';
 	}
 
-	inline static vec3 random(double min, double max) {
-		return vec3(random_double(min, max), random_double(min, max), random_double(min, max));
-	}
-
-	inline static vec3 random() {
-		return vec3(random_double(),random_double(),random_double());
-	}
-
 	double e[3];
+
 }; 
 // Type aliases for vec3
 using point3 = vec3;   // 3D point
@@ -116,15 +102,4 @@ inline vec3 cross(const vec3 &u, const vec3 &v) {
 inline vec3 unit_vector(vec3 v) {
 	return v / v.length();
 }
-
-vec3 random_in_unit_sphere() {
-	while (true) {
-		auto p = vec3::random(-1, 1);
-		if (p.length_squared() >= 1) continue;
-		return p;
-	}
-}
-
-
-
 #pragma once

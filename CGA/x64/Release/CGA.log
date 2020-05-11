@@ -1,3 +1,7 @@
 ﻿  Main.cpp
-c:\users\ariel\desktop\projetos\ray-tracing\cga\vec3.h(60): error C3861: 'random_double': identificador não encontrado
-c:\users\ariel\desktop\projetos\ray-tracing\cga\vec3.h(64): error C3861: 'random_double': identificador não encontrado
+  Gerando código
+  5 of 168 functions ( 3.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finalizada a geração de código
+  CGA.vcxproj -> C:\Users\DOMINIKCG\Desktop\CGA ray\Ray-Tracing\x64\Release\CGA.exe

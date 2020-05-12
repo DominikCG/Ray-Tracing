@@ -22,7 +22,7 @@ bool sphere::hit(const ray& r, double t_min, double t_max, hit_record& rec) cons
 	auto half_b = dot(oc, r.direction());
 	auto c = oc.length_squared() - radius * radius;
 	auto discriminant = half_b * half_b - a * c;
-
+	bool front_face;
 
 	if (discriminant > 0) {
 		auto root = sqrt(discriminant);

@@ -1,5 +1,3 @@
 ﻿  Main.cpp
-  Gerando código
-  All 295 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finalizada a geração de código
-  CGA.vcxproj -> C:\Users\ariel\Desktop\Projetos\Ray-Tracing\x64\Release\CGA.exe
+c:\users\ariel\desktop\projetos\ray-tracing\cga\vec3.h(54): error C3861: 'random_double': identificador não encontrado
+c:\users\ariel\desktop\projetos\ray-tracing\cga\vec3.h(58): error C3861: 'random_double': identificador não encontrado

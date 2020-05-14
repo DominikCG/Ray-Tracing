@@ -1,5 +1,5 @@
 ﻿  Main.cpp
-c:\users\dominikcg\desktop\cga ray\ray-tracing\cga\main.cpp(9): warning C4129: 'C': sequência de escape de caractere não reconhecida
-c:\users\dominikcg\desktop\cga ray\ray-tracing\cga\main.cpp(9): warning C4129: 'R': sequência de escape de caractere não reconhecida
-c:\users\dominikcg\desktop\cga ray\ray-tracing\cga\main.cpp(9): warning C4129: 'p': sequência de escape de caractere não reconhecida
-  CGA.vcxproj -> C:\Users\DOMINIKCG\Desktop\CGA ray\Ray-Tracing\x64\Debug\CGA.exe
+c:\users\dominikcg\desktop\rt gca again\ray-tracing-branch_antes_do_antialiasing\ray-tracing-branch_antes_do_antialiasing\cga\vec3.h(72): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+c:\users\dominikcg\desktop\rt gca again\ray-tracing-branch_antes_do_antialiasing\ray-tracing-branch_antes_do_antialiasing\cga\material.h(22): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+c:\users\dominikcg\desktop\rt gca again\ray-tracing-branch_antes_do_antialiasing\ray-tracing-branch_antes_do_antialiasing\cga\material.h(23): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+  CGA.vcxproj -> C:\Users\DOMINIKCG\Desktop\RT GCA again\Ray-Tracing-branch_antes_do_antialiasing\Ray-Tracing-branch_antes_do_antialiasing\x64\Debug\CGA.exe

@@ -1,11 +1,15 @@
 #ifndef VEC3_H
 #define VEC3_H
-#pragma once
+
 #include <iostream>
 #include <cmath>
+#include <math.h>
+
+using std::sqrt;
 
 class vec3 {
 public:
+	
 	vec3() : e{ 0,0,0 } {}
 	vec3(double e0, double e1, double e2) : e{ e0, e1, e2 } {}
 
@@ -43,22 +47,16 @@ public:
 		return e[0] * e[0] + e[1] * e[1] + e[2] * e[2];
 	}
 
-	void write_color(std::ostream &out) {
-		// Write the translated [0,255] value of each color component.
-		out << static_cast<int>(255.999 * e[0]) << ' '
-			<< static_cast<int>(255.999 * e[1]) << ' '
-			<< static_cast<int>(255.999 * e[2]) << '\n';
-	}
 
-	inline static vec3 random() {
-		return vec3(random_double(), random_double(), random_double());
-	}
 
-	inline static vec3 random(double min, double max) {
-		return vec3(random_double(min, max), random_double(min, max), random_double(min, max));
-	}
+	inline void make_unit_vector();
 
+
+
+
+public:
 	double e[3];
+
 
 }; 
 // Type aliases for vec3
@@ -67,6 +65,14 @@ using color = vec3;    // RGB color
 
 #endif
 // vec3 Utility Functions
+
+
+
+inline void vec3::make_unit_vector() {
+	float k = 1.0 / sqrt(e[0] * e[0] + e[1] * e[1] + e[2] * e[2]);
+	e[0] *= k; e[1] *= k; e[2] *= k;
+}
+
 
 inline std::ostream& operator<<(std::ostream &out, const vec3 &v) {
 	return out << v.e[0] << ' ' << v.e[1] << ' ' << v.e[2];
@@ -112,12 +118,6 @@ inline vec3 unit_vector(vec3 v) {
 	return v / v.length();
 }
 
-vec3 random_in_unit_sphere() {
-	while (true) {
-		auto p = vec3::random(-1, 1);
-		if (p.length_squared() >= 1) continue;
-		return p;
-	}
-}
 
 
+#pragma once
